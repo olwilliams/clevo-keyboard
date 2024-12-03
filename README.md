@@ -19,7 +19,7 @@ After the installation, reboot the laptop in order to make the application work.
 You might want to clean up the installation files with the following command:
 
 ```sh
-sudo rm -rf ~/tuxedo-keyboard/ && rm ~/kb.sh
+sudo rm -rf ~/clevo-keyboard/ && rm ~/kb.sh
 ```
 
 ## Change the default color
