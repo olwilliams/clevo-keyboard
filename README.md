@@ -11,7 +11,7 @@ Apart from this change, we added a script below to automatically install the sof
 To install the software automatically, open a terminal and execute:
 
 ```sh
-wget https://github.com/Cyanide31k7/clevo-keyboard/raw/master/kb.sh && chmod +x kb.sh && sudo ./kb.sh
+wget https://github.com/Cyanide31k7/clevo-keyboard-backlight/raw/master/kb.sh && chmod +x kb.sh && sudo ./kb.sh
 ```
 
 After the installation, reboot the laptop in order to make the application work. You can change the keyboard illumination settings by holding the Fn key and use the keyboard control keys on the right side of your keyboard.
@@ -19,7 +19,7 @@ After the installation, reboot the laptop in order to make the application work.
 You might want to clean up the installation files with the following command:
 
 ```sh
-sudo rm -rf ~/clevo-keyboard/ && rm ~/kb.sh
+sudo rm -rf ~/clevo-keyboard-backlight/ && rm ~/kb.sh
 ```
 
 ## Change the default color
