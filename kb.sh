@@ -33,8 +33,8 @@ rmmod clevo_wmi
 rmmod tuxedo_io
 rmmod tuxedo_keyboard
 rm /etc/modprobe.d/tuxedo_keyboard.conf
-git clone https://github.com/wessel-novacustom/clevo-keyboard
-cd clevo-keyboard/
+git clone https://github.com/Cyanide31k7/clevo-keyboard-backlight.git
+cd clevo-keyboard-backlight/
 make clean
 cd src
 file="tuxedo_keyboard.c"
@@ -51,5 +51,5 @@ make dkmsinstall
 echo tuxedo_keyboard >> /etc/modules
 modprobe tuxedo_keyboard
 echo "options tuxedo_keyboard color=RED" > /etc/modprobe.d/tuxedo_keyboard.conf
-rm -rf ~/clevo-keyboard
+rm -rf ~/clevo-keyboard-backlight
 exit 0
