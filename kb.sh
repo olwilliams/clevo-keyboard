@@ -50,6 +50,6 @@ cd ..
 make dkmsinstall
 echo tuxedo_keyboard >> /etc/modules
 modprobe tuxedo_keyboard
-echo "options tuxedo_keyboard color=WHITE" > /etc/modprobe.d/tuxedo_keyboard.conf
+echo "options tuxedo_keyboard color=RED" > /etc/modprobe.d/tuxedo_keyboard.conf
 rm -rf ~/clevo-keyboard
 exit 0
